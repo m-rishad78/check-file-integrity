@@ -1,6 +1,7 @@
 # 🧐 File Integrity Checker
 
- A Python tool to **verify the integrity of files** using cryptographic hashing.
+ A Python tool to **verify the integrity of files** using cryptographic hashing.  
+ 
  The program computes the hash of two files & checks whether they have been modified.
 
 ## 🚀 Features
