@@ -14,7 +14,7 @@
 ## 📂 Project Structure
 
  ```perl
- 📁 Checking-File-Integrity
+ 📁 check-file-integrity
  ├── main.py
  └── README.md
  ```
@@ -35,7 +35,7 @@
 ## 2️⃣ Navigate to the Project Directory
 
  ```bash
- cd File-Integrity_Checker
+ cd check-file-integrity
  ```
 
 ## ▶️ Usage
