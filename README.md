@@ -7,10 +7,20 @@
 ## 🚀 Features
 
  - Compute cryptographic hash of any file.
- - Support different algorithms (default: SHA-256)
+ - Support different algorithms (default: SHA-256).
  - Verify if two files are identical or modified.
- - Handles large files efficiently by reading in chunks (64 KB)
- - Gracefull exception handling for missing files or errors.
+ - Handles large files efficiently by processing them in 64 KB chunks.
+ - Graceful exception handling for missing files or errors.
+
+## 🧠 How it works
+
+ 1. The program prompts the user to enter the paths of **two files** to compare.  
+ 2. For each file, a **cryptographic hash** is generated using a chosen algorithm (default: SHA-256).  
+ 3. Large files are processed in **64 KB chunks** to avoid memory issues.  
+ 4. The computed hashes of the two files are compared:
+    - If the hashes match → the files are identical.
+    - If the hashes differ → the files have been modified.
+ 5. The result is displayed to the user.
 
 ## 📂 Project Structure
 
@@ -77,7 +87,7 @@
 ## ⚠️ Security Notes
 
  - SHA-256 is recommended for cryptographic integrity checks.
- - This tool is usedul for **detecting modifications, corruption, or tampering** of files.
+ - This tool is useful for **detecting modifications, corruption, or tampering** of files.
 
 ## ⭐ Contributing
 
