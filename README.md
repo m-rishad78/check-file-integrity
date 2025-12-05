@@ -14,7 +14,7 @@
 
 ## 📂 Project Structure
 
- ```perl
+ ```tree
  📁 check-file-integrity
  ├── main.py
  └── README.md
@@ -30,7 +30,7 @@
 ## 1️⃣ Clone the Repository
 
  ```bash
- git clone 
+ git clone https://github.com/m-rishad78/check-file-integrity.git
  ```
 
 ## 2️⃣ Navigate to the Project Directory
@@ -49,20 +49,20 @@
 
  **02.** Enter the paths of the two files you want to compare:
 
- ```css
+ ```text
  Enter the File Path 1: file1.txt
  Enter the File Path 2: file2.txt
  ```
 
  **03.** The program will output whether the files are identical or have been modified.
 
- ```css
+ ```text
  No Modifications Have been Made.
  ```
 
  **or**
 
- ```css
+ ```text
  File Has been Modified.
  ```
 
